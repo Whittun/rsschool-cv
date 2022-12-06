@@ -18,3 +18,7 @@ multiply = function (a, b) {
   return a * b;
 }
 ``` 
+## Projects
+* https://github.com/Whittun/MaineCoon
+## English language
+I am studying it, I think that at the moment my knowledge corresponds to A1
