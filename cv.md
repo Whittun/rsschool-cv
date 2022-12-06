@@ -12,3 +12,9 @@ I want to pass RS School for the sake of knowledge to become a Frontend develope
 * Sass
 * JavaScript (very, very little)
 * Git
+## Code Examples
+```
+multiply = function (a, b) {
+  return a * b;
+}
+``` 
