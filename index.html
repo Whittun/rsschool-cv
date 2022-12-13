@@ -7,6 +7,136 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="photo.jpg" alt="My photo" width="200px">
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__nav-list">
+                <li class="main-header__nav-item">
+                    <a href="#" class="main-header__nav-link">About me</a>
+                </li>
+                <li class="main-header__nav-item">
+                    <a href="#" class="main-header__nav-link">Skills</a>
+                </li>
+                <li class="main-header__nav-item">
+                    <a href="#" class="main-header__nav-link">Projects</a>
+                </li>
+                <li class="main-header__nav-item">
+                    <a href="#" class="main-header__nav-link">Code Examples</a>
+                </li>
+                <li class="main-header__nav-item">
+                    <a href="#" class="main-header__nav-link">My contacts</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="me-block">
+            <h1 class="main-title">
+                Aleksandr Shpanov
+            </h1>
+            <img class="me-block__photo" src="img/photo.jpg" alt="my photo">
+        </section>
+        <section class="about">
+            <h2 class="about__title">
+                About me
+            </h2>
+            <div class="about__my-story">
+                <h3 class="about__sub-title">
+                    My story
+                </h3>
+                <p class="about__text">
+                    I want to pass RS School for the sake of knowledge to become a Frontend developer. At the moment I have experience in layout and a little knowledge in JavaScript (beginner). I even managed to work in some web studios.
+                </p>
+                <p class="about__text">
+                    My main goal is to learn how to create cool projects that I can be proud of and feel that I have done something very cool in my life. I dream of creating my own project, the idea of which has been in my head for a long time (secret information) and at the moment I am gaining knowledge to implement it.
+                </p>
+            </div>
+            <div class="about__my-english">
+                <h3 class="about__sub-title">
+                    English language
+                </h3>
+                <p class="about__text">
+                    I am studying it, I think that at the moment my knowledge corresponds to A1
+                </p>
+            </div>
+        </section>
+        <section class="skills">
+            <h2 class="skills__title">
+                Skills
+            </h2>
+            <ul class="skills__list">
+                <li class="skills__item">HTML</li>
+                <li class="skills__item">SASS</li>
+                <li class="skills__item">CSS</li>
+                <li class="skills__item">GIT</li>
+                <li class="skills__item">JS</li>
+            </ul>
+        </section>
+        <section class="code-examples">
+            <h2 class="code-examples__title">
+                Code Examples
+            </h2>
+            <p class="code-text">
+                <code>multiply = function (a, b) { return a * b }</code>
+            </p>
+        </section>
+        <section class="projects">
+            <h2 class="projects__title">
+                Projects
+            </h2>
+            <ul class="projects__list">
+                <li class="projects__item"><a href="#">/MaineCoon/</a></li>
+                <li class="projects__item"><a href="#"></a></li>
+                <li class="projects__item"><a href="#"></a></li>
+                <li class="projects__item"><a href="#"></a></li>
+            </ul>
+        </section>
+        <section class="contacts">
+            <h2 class="contacts__title">
+                My contacts
+            </h2>
+            <ul class="contacts__list">
+                <li class="contacts__item">
+                    <h3 class="contacts__sub-title">Discord</h3>
+                    <p class="contacts__info">
+                        Whittun#4423
+                    </p>
+                </li>
+                <li class="contacts__item">
+                    <h3 class="contacts__sub-title">Mail</h3>
+                    <a href="#" class="contacts__info">whittun@gmail.com</a>
+                </li>
+                <li class="contacts__item">
+                    <h3 class="contacts__sub-title">Telegram</h3>
+                    <a href="#" class="contacts__info">@Mindles0</a>
+                </li>
+                <li class="contacts__item">
+                    <h3 class="contacts__sub-title">Github</h3>
+                    <a href="#" class="contacts__info">Whittun</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <img class="main-footer__logo" src="img/rsschool-logo.svg" alt="Rolling Scopes school logo" width="553" height="263">
+        <ul class="main-footer__creators-list">
+            <li class="main-footer__creators-item">
+                <a href="#" class="main-footer__creators-link">
+                    <h2 class="main-footer__creators-title">
+                        Aleksandr Shpanov
+                    </h2>
+                </a>
+            </li>
+            <li class="main-footer__creators-item">
+                <a href="#" class="main-footer__creators-link">
+                    <h2 class="main-footer__creators-title">
+                        Anastasia Gudechek
+                    </h2>
+                </a>
+            </li>
+        </ul>
+        <p class="copy">
+            © made in 2022
+        </p>
+    </footer>
 </body>
 </html>
