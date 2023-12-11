@@ -81,34 +81,16 @@
                     </li>
                 </ul>
             </section>
-            <section class="code-examples" id="code">
-                <h2 class="code-examples__title title">
-                    Code Examples
-                </h2>
-                <div class="code-examples__code-text">
-<pre>
-<code>
-function rgb(r, g, b){
-    function hex(rgb) {
-      rgb = (rgb &gt; 255) ? 255 : (rgb &lt; 0) ? 0 : rgb;
-      return rgb.toString(16);
-    }
-
-    let result = '';
-    for (key in arguments) {
-        result += (hex(arguments[key]).length &lt; 2) ? '0' + hex(arguments[key]) : hex(arguments[key]);
-    }
-    return result.toUpperCase();
-}
-</code>
-</pre>
-                </div>
-            </section>
             <section class="projects" id="projects">
                 <h2 class="projects__title title">
                     Projects
                 </h2>
                 <ul class="projects__list">
+                    <li class="projects__item projects__item--active">
+                        <a class="projects__info" href="https://whittun.github.io/coffee-house/">
+                            <span class="projects__link-text">/Coffee-House/</span>
+                        </a>
+                    </li>
                     <li class="projects__item projects__item--active">
                         <a class="projects__info" href="https://whittun.github.io/tic-tac-toe/">
                             <span class="projects__link-text">/tic-tac-toe/</span>
